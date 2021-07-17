@@ -1,3 +1,5 @@
+//https://vividend.github.io/alterra/
+
 const stats = new Stats();
 
 document.body.appendChild(stats.domElement);
