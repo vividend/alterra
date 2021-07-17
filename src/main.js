@@ -14,6 +14,22 @@ const renderer = new THREE.WebGLRenderer(); renderer.setSize(window.innerWidth, 
 
 document.body.appendChild(renderer.domElement);
 
+var config = {
+  method: 'get',
+  url: 'https://maps.googleapis.com/maps/api/elevation/json?locations=39.7391536,-104.9847034&key=YOUR_API_KEY',
+  headers: {}
+};
+
+axios(config)
+  .then(function(response) {
+    console.log(JSON.stringify(response.data));
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+  
+  console.log("ok");
+
 function animate()
 {
   requestAnimationFrame(animate);
