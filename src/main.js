@@ -1,4 +1,5 @@
-//https://vividend.github.io/alterra/
+// https://vividend.github.io/alterra/
+// AIzaSyDEi14UIk060Gc0rL2AcwQfsft54Hsa3i8
 
 const stats = new Stats();
 
@@ -27,8 +28,6 @@ axios(config)
   .catch(function(error) {
     console.log(error);
   });
-  
-  console.log("ok");
 
 function animate()
 {
