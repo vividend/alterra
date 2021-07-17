@@ -17,7 +17,7 @@ document.body.appendChild(renderer.domElement);
 
 var config = {
   method: 'get',
-  url: 'https://maps.googleapis.com/maps/api/elevation/json?locations=39.7391536,-104.9847034&key=YOUR_API_KEY',
+  url: 'https://maps.googleapis.com/maps/api/elevation/json?locations=39.7391536,-104.9847034&key=AIzaSyDEi14UIk060Gc0rL2AcwQfsft54Hsa3i8',
   headers: {}
 };
 
